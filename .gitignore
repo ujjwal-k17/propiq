@@ -1,0 +1,10 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+dist/
+*.egg-info/
+# Generated PDF reports (keep directory, ignore actual PDF files)
+reports/*.pdf

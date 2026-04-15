@@ -1,0 +1,56 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy[asyncio]==2.0.31
+asyncpg==0.29.0
+alembic==1.13.2
+
+# ── Validation & settings ─────────────────────────────────────────────────────
+pydantic==2.7.4
+pydantic-settings==2.3.4
+pydantic[email]==2.7.4
+
+# ── Auth & security ───────────────────────────────────────────────────────────
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# ── Cache & task queue ────────────────────────────────────────────────────────
+redis[asyncio]==5.0.7
+celery==5.4.0
+flower==2.0.1
+
+# ── HTTP client & scraping ────────────────────────────────────────────────────
+httpx==0.27.0
+playwright==1.44.0
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# ── Date utilities ────────────────────────────────────────────────────────────
+python-dateutil==2.9.0
+
+# ── AI / LLM ──────────────────────────────────────────────────────────────────
+anthropic==0.29.0
+openai==1.35.3
+
+# ── Payments ──────────────────────────────────────────────────────────────────
+razorpay==1.4.2
+
+# ── Report generation ─────────────────────────────────────────────────────────
+# WeasyPrint requires system packages: libpango, libcairo, libgdk-pixbuf
+# Ubuntu/Debian: apt-get install libpango-1.0-0 libcairo2 libgdk-pixbuf2.0-0
+# macOS: brew install pango cairo gdk-pixbuf libffi
+weasyprint==62.3
+jinja2==3.1.4
+
+# ── Async utilities ───────────────────────────────────────────────────────────
+anyio==4.4.0
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+structlog==24.2.0
+
+# ── Dev / testing ─────────────────────────────────────────────────────────────
+pytest==8.2.2
+pytest-asyncio==0.23.7
