@@ -82,7 +82,7 @@ const TESTIMONIALS = [
     name: 'Priya Krishnaswamy',
     role: 'First-time buyer, Bengaluru',
     avatar: 'PK',
-    text: 'I was relying on the builder's sales team until PropIQ showed me 18 RERA complaints against the same developer. Changed my decision entirely.',
+    text: "I was relying on the builder's sales team until PropIQ showed me 18 RERA complaints against the same developer. Changed my decision entirely.",
     rating: 5,
   },
   {
